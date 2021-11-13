@@ -1,21 +1,27 @@
-body{
-    border: 2px solid black;
+body {
+    border: 3px solid black;
+    padding: 6px;
 }
 
-h1 {
-    color:greenyellow;
-    border: 1px solid black;
-    padding: 15px;
+h1{
+    color: darkgreen;
+    border: #000000 solid 1px;
     text-align: center;
+    font-size: 50px;
     text-decoration: underline;
-    font-size: 80px;
 }
 
-#subtitulo {
-    background-color: black;
-    color: whitesmoke;
-    margin: 1%;
-    padding: 1%;
-    text-decoration: underline;
+h3 {
+    color: white;
+    font-weight: lighter;
+    background: black;
     text-align: center;
 }
+
+h2 {
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+
+
