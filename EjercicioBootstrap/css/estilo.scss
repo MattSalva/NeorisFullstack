@@ -1,0 +1,94 @@
+$color1: #7b7b7f; // gris oscuro
+$color2: #cacaca; // gris medio
+$color3: #f4f4f4; // gris claro
+$color4: #47ae73; // Verde
+
+.color1 {
+  color: $color1;
+}
+
+.color2 {
+  color: $color2;
+}
+
+.color3 {
+  color: $color3;
+}
+
+.color4 {
+  color: $color4;
+}
+
+
+.bg-color1 {
+  background-color: $color1;
+}
+
+.bg-color2 {
+  background-color: $color2;
+}
+
+.bg-color3 {
+  background-color: $color3;
+}
+
+.bg-color4 {
+  background-color: $color4;
+}
+html {
+    scroll-padding-top: 3.5rem;
+  }
+  
+body {
+  font-family: 'Raleway', sans-serif;
+}
+header {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+  
+section {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+
+h1 {
+  color: $color1;
+  font-weight: 700;
+  font-size: 50px;
+}
+
+h2 {
+  color: $color1;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+h1, h2, h3, h4 {
+  font-weight: 700;
+  color: $color1
+}
+.btn-primary {
+  color: #fff;
+  background-color: $color4;
+  border-color: $color4;
+  border-radius: 0%;
+  &:hover, &:focus{
+    color: #fff;
+    background-color: darken($color: $color4, $amount: 10);
+    border-color: darken($color: $color4, $amount: 10);
+    box-shadow: none;
+}
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 10px 30px;
+}
+
+.box-image {
+  height: 350px;
+  background-color: $color3;
+  i {
+    font-size: 50px;
+    color: $color1;
+  }
+}
