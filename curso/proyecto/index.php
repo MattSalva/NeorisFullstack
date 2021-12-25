@@ -2,7 +2,7 @@
 
 require 'abm_alumnos.php';
 
-$mysqli = mysqli_connect("127.0.0.1:3307", "root", "", "curso");
+$mysqli = mysqli_connect("127.0.0.1:3306", "root", "root", "curso");
 
 $resultado = alumnos($mysqli);
 
